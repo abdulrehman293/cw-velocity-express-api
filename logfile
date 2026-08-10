@@ -1,0 +1,38 @@
+2026-08-10 13:16:12.308 PKT [19720] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-08-10 13:16:12.317 PKT [19720] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-08-10 13:16:12.317 PKT [19720] LOG:  listening on IPv6 address "::1", port 5432
+2026-08-10 13:16:12.449 PKT [22608] LOG:  database system was shut down at 2026-08-10 13:11:16 PKT
+2026-08-10 13:16:12.467 PKT [19720] LOG:  database system is ready to accept connections
+2026-08-10 13:21:12.441 PKT [18668] LOG:  checkpoint starting: time
+2026-08-10 13:23:06.090 PKT [18668] LOG:  checkpoint complete: wrote 1037 buffers (6.3%), wrote 3 SLRU buffers; 1 WAL file(s) added, 0 removed, 0 recycled; write=113.256 s, sync=0.236 s, total=113.650 s; sync files=312, longest=0.010 s, average=0.001 s; distance=5057 kB, estimate=5057 kB; lsn=0/1CE1CC8, redo lsn=0/1CE1C38
+2026-08-10 13:25:27.195 PKT [32316] ERROR:  canceling statement due to user request
+2026-08-10 13:25:27.195 PKT [18668] LOG:  shutting down
+2026-08-10 13:25:27.196 PKT [19720] LOG:  received fast shutdown request
+2026-08-10 13:25:27.198 PKT [18668] LOG:  checkpoint starting: shutdown immediate
+2026-08-10 13:25:27.199 PKT [19720] LOG:  aborting any active transactions
+2026-08-10 13:25:27.214 PKT [18668] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.019 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=4551 kB; lsn=0/1CE1D78, redo lsn=0/1CE1D78
+2026-08-10 13:25:27.215 PKT [19720] LOG:  WAL was shut down unexpectedly
+2026-08-10 13:25:27.219 PKT [19720] LOG:  background worker "logical replication launcher" (PID 32316) exited with exit code 1
+2026-08-10 13:25:27.237 PKT [19720] LOG:  abnormal database system shutdown
+2026-08-10 13:25:27.246 PKT [19720] LOG:  database system is shut down
+2026-08-10 13:30:26.050 PKT [14252] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-08-10 13:30:26.058 PKT [14252] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-08-10 13:30:26.058 PKT [14252] LOG:  listening on IPv6 address "::1", port 5432
+2026-08-10 13:30:26.167 PKT [24584] LOG:  database system was shut down at 2026-08-10 13:25:27 PKT
+2026-08-10 13:30:26.176 PKT [14252] LOG:  database system is ready to accept connections
+2026-08-10 13:35:26.176 PKT [36080] LOG:  checkpoint starting: time
+2026-08-10 13:35:31.011 PKT [36080] LOG:  checkpoint complete: wrote 44 buffers (0.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.807 s, sync=0.017 s, total=4.836 s; sync files=40, longest=0.003 s, average=0.001 s; distance=156 kB, estimate=156 kB; lsn=0/1D090D0, redo lsn=0/1D09078
+2026-08-10 13:55:26.049 PKT [36080] LOG:  checkpoint starting: time
+2026-08-10 13:55:26.622 PKT [36080] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.553 s, sync=0.006 s, total=0.573 s; sync files=5, longest=0.003 s, average=0.002 s; distance=0 kB, estimate=141 kB; lsn=0/1D09498, redo lsn=0/1D09440
+2026-08-10 14:00:26.623 PKT [36080] LOG:  checkpoint starting: time
+2026-08-10 14:00:26.737 PKT [36080] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.002 s, total=0.114 s; sync files=1, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=127 kB; lsn=0/1D09668, redo lsn=0/1D09610
+2026-08-10 15:54:52.928 PKT [18672] ERROR:  canceling statement due to user request
+2026-08-10 15:54:52.928 PKT [36080] LOG:  shutting down
+2026-08-10 15:54:52.928 PKT [14252] LOG:  received fast shutdown request
+2026-08-10 15:54:52.930 PKT [36080] LOG:  checkpoint starting: shutdown immediate
+2026-08-10 15:54:52.930 PKT [14252] LOG:  aborting any active transactions
+2026-08-10 15:54:52.935 PKT [36080] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.008 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=114 kB; lsn=0/1D09718, redo lsn=0/1D09718
+2026-08-10 15:54:52.936 PKT [14252] LOG:  WAL was shut down unexpectedly
+2026-08-10 15:54:52.939 PKT [14252] LOG:  background worker "logical replication launcher" (PID 18672) exited with exit code 1
+2026-08-10 15:54:52.947 PKT [14252] LOG:  abnormal database system shutdown
+2026-08-10 15:54:52.950 PKT [14252] LOG:  database system is shut down
